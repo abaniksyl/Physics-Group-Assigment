@@ -1,6 +1,6 @@
 Assalamu Alaikum  sir,
 
-Our team name: The Wave Rider
+Our team name: CodeQuad
 Section:C
 Assigment No:1
 
