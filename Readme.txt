@@ -2,7 +2,8 @@ Assalamu Alaikum sir,
 
 Our team name: CodeQuad
 Section:C
-Assigment No:1
+Assigment No: 1
+Group: 1
 
 Group members:
 01) Rafiwol Karim Rafi (251-115-150)
