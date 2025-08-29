@@ -77,7 +77,7 @@ Enter your choice (1/2/3): 1
 Enter distance in µm: 1.0
 
 Calculated Wavelength: 500.00 nm
-Color: Green
+Color: Cyan
   </pre>
 
   <hr/>
