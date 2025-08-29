@@ -11,7 +11,8 @@ int main()
 
     printf("Enter fringe order (m) : ");
     scanf("%lf", &fringe_order);
-
+    
+    printf("DO NOT USE INVERSE VALUE FOR \"DISTANCE\" \n");
     printf("If you give the distance in (µm) Type --> 1 : \n");
     printf("If you give the distance in (mm) Type --> 2 : \n");
     printf("If you give the distance in (m)  Type --> 3 : \n");
@@ -35,7 +36,7 @@ int main()
              printf("\nWavelength lamda(λ) is %.2lf nanometer \n", lamda_λ);
     break;
 
-    case 3:
+    case 3: 
              printf("Enter distance in m : ");
              scanf("%lf", &distance_d);
              lamda_λ = (distance_d * sin(angle_θ)) / fringe_order;
@@ -52,39 +53,38 @@ int main()
           printf("The Colour is Not Visible\n");
     }
 
-    else if (lamda_λ >= 380 || lamda_λ <= 450)
+    else if (lamda_λ >= 380 && lamda_λ <= 450)
     {
           printf("The Colour is Violet\n");
     }
 
-    else if (lamda_λ >= 351 || lamda_λ <= 485)
+    else if (lamda_λ >= 451 && lamda_λ <= 485)
     {
           printf("The Colour is Blue\n");
     }
 
-    else if (lamda_λ >= 486 || lamda_λ <= 500)
+    else if (lamda_λ >= 486 && lamda_λ <= 500)
     {
           printf("The Colour is Cyan\n");
     }
 
-    else if (lamda_λ >= 501 || lamda_λ <= 565)
+    else if (lamda_λ >= 501 && lamda_λ <= 565)
     {
           printf("The Colour is Green\n");
     }
 
-    else if (lamda_λ >= 566 || lamda_λ <= 590)
+    else if (lamda_λ >= 566 && lamda_λ <= 590)
     {
           printf("The Colour is Yellow\n");
     }
 
-    else if (lamda_λ >= 591 || lamda_λ <= 625)
+    else if (lamda_λ >= 591 && lamda_λ <= 625)
     {
           printf("The Colour is Orange\n");
     }
 
-    else if (lamda_λ >= 626 || lamda_λ <= 750)
+    else if (lamda_λ >= 626 && lamda_λ <= 750)
     {
           printf("The Colour is Red\n");
     }
-    return 0;
 }
