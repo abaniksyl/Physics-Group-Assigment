@@ -53,37 +53,37 @@ int main()
           printf("The Colour is Not Visible\n");
     }
 
-    else if (lamda_λ >= 380 && lamda_λ <= 450)
+    else if (lamda_λ >= 380 && lamda_λ < 451)
     {
           printf("The Colour is Violet\n");
     }
 
-    else if (lamda_λ >= 451 && lamda_λ <= 485)
+    else if (lamda_λ >= 451 && lamda_λ < 486)
     {
           printf("The Colour is Blue\n");
     }
 
-    else if (lamda_λ >= 486 && lamda_λ <= 500)
+    else if (lamda_λ >= 486 && lamda_λ < 501)
     {
           printf("The Colour is Cyan\n");
     }
 
-    else if (lamda_λ >= 501 && lamda_λ <= 565)
+    else if (lamda_λ >= 501 && lamda_λ < 566)
     {
           printf("The Colour is Green\n");
     }
 
-    else if (lamda_λ >= 566 && lamda_λ <= 590)
+    else if (lamda_λ >= 566 && lamda_λ < 591)
     {
           printf("The Colour is Yellow\n");
     }
 
-    else if (lamda_λ >= 591 && lamda_λ <= 625)
+    else if (lamda_λ >= 591 && lamda_λ < 626)
     {
           printf("The Colour is Orange\n");
     }
 
-    else if (lamda_λ >= 626 && lamda_λ <= 750)
+    else if (lamda_λ >= 626 && lamda_λ < 751)
     {
           printf("The Colour is Red\n");
     }
